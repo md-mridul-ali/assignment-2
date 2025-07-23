@@ -168,3 +168,119 @@
 .right-details li {
     margin-bottom: 20px;
 }
+.latest-deal{
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+.latest-deal h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.latest-deal p{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.50);
+}
+.plant-types{
+    height: 423px;
+    background-color: aquamarine;
+}
+.plant-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.plant-left1{
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 197px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 12px;
+}
+.off{
+    margin-bottom: 19px;
+    padding-top: 65px;
+    margin-right: 47px;
+    margin-left: 49px;
+}
+.shop{
+    color: #FFFFFF;
+}
+.plant-left2{
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 197px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 12px;
+}
+.plant-master{
+    display: flex;
+    gap: 25px;
+}
+.plant-right{
+    background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    flex: 1;
+    border-radius: 12px;
+}
+/* plant types style */
+/* .promo-container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.promo-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promo-card {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.promo-card.small {
+  width: 250px;
+  height: 130px;
+}
+
+.promo-card.large {
+  flex: 1;
+  height: 280px;
+}
+
+.promo-text {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); dark overlay
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.promo-text h3, .promo-text h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.promo-text a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  display: block;
+  margin-top: 8px;
+} */
