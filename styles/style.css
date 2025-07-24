@@ -377,7 +377,48 @@
     border: none;
     color: #FFFFFF;
 }
-
+.footer{
+    /* margin-top: ; */
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* gap: 60px; */
+    /* margin-left: 100px; */
+}
+.footer-content-left{
+    font-size: 22px;
+    color: #6B7280;
+}
+.home-links, .features-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-links ul, .features-links ul{
+     list-style: none;
+     
+}
+.home-links ul li a, .features-links ul li a{
+   text-decoration: none;
+   color: #6B7280;
+}
+.home-links ul li, .features-links ul li{
+   margin-bottom: 20px;
+}
+.facebook-links{
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* margin-right: 10px; */
+    /* width: 100%; */
+}
+.facebook-links :nth-child(2){
+    margin-bottom: 60px;
+}
 /* responsive style */
 @media screen and (max-width: 576px) {
     .container {
@@ -449,7 +490,7 @@
     }
 
     .card-btn {
-        padding: 20px 40px;
+        padding: 20px 70px;
         text-align: center;
     }
 
@@ -492,11 +533,11 @@
         margin-top: 80px;
         /* background-image: url(../assets/news-letter-bg.png); */
         background-size: cover;
-        height: 533px;
+        height: 333px;
     }
 
     .join h3 {
-        padding-top: 110px;
+        padding-top: 140px;
         margin-bottom: 23px;
         font-size: 2rem;
         font-weight: bold;
@@ -517,6 +558,20 @@
     }
     .join button {
     padding: 15px 25px;
+}
+.footer-container{
+    flex-direction: column;
+     margin-left: 15px;
+}
+.footer-content-left p{
+    margin-bottom: 20px;
+}
+.home-links, .features-links{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: left;
+   
+          /* align-items: center; */
 }
 }    
 
