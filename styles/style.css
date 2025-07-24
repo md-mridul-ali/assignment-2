@@ -171,12 +171,8 @@
     gap: 20px;
 }
 .plants {
-    position: relative;
-    background-size: cover;
-    background-position: center;
     border-radius: 12px;
-    overflow: hidden;
-    color: #FFFFFF;
+     overflow: hidden;
 }
 .small-plants {
     width: 367px;
@@ -186,7 +182,7 @@
     flex: 1;
 }
 .plants-details {
-    position: absolute;
+    /* position: absolute; */
     border-radius: 8px;
     text-align: center;
 }
@@ -196,7 +192,7 @@
     color: #FFFFFF;
     padding-top: 65px;
     margin-right: 45px;
-    margin-left: 90px;
+    margin-left: 45px;
 }
 .shop {
     font-size: 16px;
@@ -204,15 +200,16 @@
     color: #FFFFFF;
     text-decoration: underline;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 12px;
     display: inline-block;
 }
 .off25 {
     font-size: 40px;
     font-weight: bold;
+    color: #FFFFFF;
     text-align: center;
     padding-top: 172px;
-    margin-left: 170px;
+    margin-left: 50px;
     margin-bottom: 10px;
 }
 .shop25 {
@@ -221,7 +218,7 @@
     color: #FFFFFF;
     text-decoration: underline;
     text-align: center;
-    margin-left: 180px;
+    margin-left: 40px;
 }
 /* join style */
 .join-content {
@@ -397,8 +394,9 @@
     }
 
     .plants-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -406,6 +404,7 @@
     .large-plants {
         width: 367px;
         height: 197px;
+        padding-bottom: 70px;
     }
 
     .off25 {
