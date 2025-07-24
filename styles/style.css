@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 .container {
     max-width: 1140px;
     margin: auto;
@@ -13,19 +12,14 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* background-color: aquamarine; */
-    /* margin-top: 30px; */
 }
-
 .nav-image {
     margin-top: 24.5px;
 }
-
 .nav-links {
     list-style: none;
     margin-top: 35.5px;
 }
-
 .nav-links ul a:nth-child(1),
 .nav-links ul a:nth-child(4) {
     color: #252432;
@@ -35,60 +29,48 @@
 .nav-links ul a:nth-child(3) {
     color: #8987A1;
 }
-
 .nav-links a {
     text-decoration: none;
     padding: 20px;
 }
-
 /* banner style */
 .banner {
     display: flex;
     margin-top: 120px;
-    /* background-color: aqua; */
 }
-
 .banner-title {
     font-size: 4rem;
     font-weight: bold;
     margin-top: 165px;
 }
-
 .fresh-flowers {
     color: #E95A08;
 }
-
 .banner-details {
     max-width: 570px;
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.50);
 }
-
 .banner-image {
     max-width: 570px;
 }
-
 .banner-image img {
     display: block;
     height: 100%;
     width: 100%;
 }
-
 .our-plants-content {
     text-align: center;
     margin-top: 120px;
 }
-
 .our-plants-title {
     font-size: 3rem;
     font-weight: bold;
 }
-
 .our-plants-details {
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.50);
 }
-
 /* card style */
 .card-title {
     font-size: 1.375rem;
@@ -98,11 +80,9 @@
     margin-bottom: 20px;
     margin-right: 69px;
 }
-
 .card-image {
     width: 100%;
 }
-
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -126,7 +106,6 @@
     border: none;
     margin-bottom: 30px;
 }
-
 /* flower and plants lover style */
 .flower-and-plants-lover {
     display: flex;
@@ -139,10 +118,8 @@
 
 .left-image {
     display: block;
-    object-fit: cover;
     height: 497px;
 }
-
 .badge {
     width: 210px;
     position: absolute;
@@ -150,198 +127,106 @@
     right: -80px;
     z-index: 10;
 }
-
 .right {
     margin: 39px 0px 0px 60px;
     flex: 1;
 }
-
 .right h2 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
-
 .right-details {
     padding-left: 20px;
     color: rgba(0, 0, 0, 0.50);
 
 }
-
 .right-details li {
     margin-bottom: 20px;
 }
-
+/* latest section style */
 .latest-deal {
     text-align: center;
     margin-top: 110px;
     margin-bottom: 100px;
 }
-
 .latest-deal h2 {
     font-size: 3rem;
     font-weight: bold;
 }
-
 .latest-deal p {
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.50);
 }
-
-/* .plant-types {
-    height: 423px;
-    
-}
-
-.plant-left {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.plant-left1 {
-    background-image: url('../assets/deal-bloom.png');
-    background-repeat: no-repeat;
-    width: 367px;
-    height: 197px;
-    color: #FFFFFF;
-    text-align: center;
-    border-radius: 12px;
-}
-
-.off {
-    margin-bottom: 19px;
-    padding-top: 65px;
-    margin-right: 47px;
-    margin-left: 49px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.shop {
-    color: #FFFFFF;
-    text-decoration: none;
-    text-decoration: underline;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.plant-left2 {
-    background-image: url('../assets/deal-ana.png');
-    background-repeat: no-repeat;
-    width: 367px;
-    height: 197px;
-    color: #FFFFFF;
-    text-align: center;
-    border-radius: 12px;
-}
-
-.plant-master {
-    display: flex;
-    gap: 25px;
-}
-
-.plant-right {
-    flex: 1;
-    border-radius: 12px;
-}
-.plant-right{
-    position: relative;
-}
-.xxxx{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.off25 {
-
-    margin-bottom: 19px;
-
-    font-size: 40px;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-.shop25 {
-    margin-left: 120px;
-    font-size: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-} */
-
+/* plants section style */
 .plants-container {
     display: flex;
     gap: 20px;
     padding: 20px;
     border-radius: 12px;
 }
-
 .left-plants {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .plants {
     position: relative;
     background-size: cover;
     background-position: center;
     border-radius: 12px;
     overflow: hidden;
-    color: white;
-    font-family: sans-serif;
+    color: #FFFFFF;
 }
-
 .small-plants {
     width: 367px;
     height: 197px;
 }
-
 .large-plants {
     flex: 1;
 }
-
-.overlay {
+.plants-details {
     position: absolute;
-    bottom: 15px;
-    left: 15px;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 10px 15px;
     border-radius: 8px;
+    text-align: center;
 }
-
-.overlay p {
-    margin: 0;
-    font-size: 18px;
+.off60 {
+    font-size: 20px;
     font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 65px;
+    margin-right: 45px;
+    margin-left: 90px;
 }
-
-.overlay a {
-    color: white;
-    font-weight: bold;
+.shop {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
     text-decoration: underline;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
     display: inline-block;
 }
-
-
-
+.off25 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 172px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+.shop25 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 180px;
+}
 /* join style */
 .join-content {
     position: relative;
 }
-
-/* .input-button {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    font-size: 3rem;
-    font-weight: bold;
-} */
-
 .join {
     width: 100%;
     text-align: center;
@@ -350,7 +235,6 @@
     background-size: cover;
     height: 533px;
 }
-
 .join h3 {
     padding-top: 199px;
     margin-bottom: 23px;
@@ -359,67 +243,62 @@
     color: #FFFFFF;
 
 }
-
 .input-button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .join input {
     padding: 15px 540px 15px 20px;
     border: none;
 }
-
 .join button {
     background-color: #E95A08;
     padding: 15px 53px;
     border: none;
     color: #FFFFFF;
 }
-.footer{
-    /* margin-top: ; */
-}
-.footer-container{
+/* footer style */
+.footer-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    /* gap: 60px; */
-    /* margin-left: 100px; */
 }
-.footer-content-left{
+.footer-content-left {
     font-size: 22px;
     color: #6B7280;
 }
-.home-links, .features-links{
+.home-links,
+.features-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.home-links ul, .features-links ul{
-     list-style: none;
-     
+.home-links ul,
+.features-links ul {
+    list-style: none;
+
 }
-.home-links ul li a, .features-links ul li a{
-   text-decoration: none;
-   color: #6B7280;
+.home-links ul li a,
+.features-links ul li a {
+    text-decoration: none;
+    color: #6B7280;
 }
-.home-links ul li, .features-links ul li{
-   margin-bottom: 20px;
+
+.home-links ul li,
+.features-links ul li {
+    margin-bottom: 20px;
 }
-.facebook-links{
+.facebook-links {
     display: flex;
     gap: 20px;
-    /* flex-wrap: wrap; */
-    /* flex-direction: column; */
-    /* margin-right: 10px; */
-    /* width: 100%; */
 }
-.facebook-links :nth-child(2){
+.facebook-links :nth-child(2) {
     margin-bottom: 60px;
 }
-/* responsive style */
+
+/* responsive style for small device */
 @media screen and (max-width: 576px) {
     .container {
         width: 100%;
@@ -457,8 +336,6 @@
     }
 
     .banner-title {
-        /* font-size: 24px;
-        line-height: 24px; */
         margin-bottom: 13px;
         margin-top: 0px;
     }
@@ -473,7 +350,6 @@
     }
 
     .card-title {
-        /* font-size: 1.375rem; */
         font-weight: bold;
         margin-top: 30px;
         margin-left: 5px;
@@ -490,7 +366,7 @@
     }
 
     .card-btn {
-        padding: 20px 70px;
+        padding: 20px 40px;
         text-align: center;
     }
 
@@ -498,20 +374,26 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
     }
 
     .left-image {
-        display: none;
-        margin-left: 20px;
-        margin-right: 60px;
+        width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .right {
-        margin: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
     }
 
     .badge {
         display: none;
+    }
+
+    .latest-deal {
+        text-align: center;
     }
 
     .plants-container {
@@ -519,7 +401,6 @@
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
-        /* gap: 20px; */
     }
 
     .large-plants {
@@ -527,11 +408,29 @@
         height: 197px;
     }
 
+    .off25 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 65px;
+        margin-right: 45px;
+        margin-left: 90px;
+
+    }
+
+    .shop25 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-left: 20px;
+        display: inline-block;
+    }
+
     .join {
         width: 100%;
         text-align: center;
         margin-top: 80px;
-        /* background-image: url(../assets/news-letter-bg.png); */
         background-size: cover;
         height: 333px;
     }
@@ -556,79 +455,23 @@
         border: none;
 
     }
+
     .join button {
-    padding: 15px 25px;
-}
-.footer-container{
-    flex-direction: column;
-     margin-left: 15px;
-}
-.footer-content-left p{
-    margin-bottom: 20px;
-}
-.home-links, .features-links{
-    /* display: flex; */
-    flex-direction: row;
-    justify-content: left;
-   
-          /* align-items: center; */
-}
-}    
+        padding: 15px 25px;
+    }
 
-    /* plant types style */
-    /* .promo-container {
-  display: flex;
-  gap: 20px;
-  padding: 40px;
-  flex-wrap: wrap;
-}
+    .footer-container {
+        flex-direction: column;
+        margin-left: 15px;
+    }
 
-.promo-left {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+    .footer-content-left p {
+        margin-bottom: 20px;
+    }
 
-.promo-card {
-  background-size: cover;
-  background-position: center;
-  color: white;
-  border-radius: 12px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+    .home-links,
+    .features-links {
+        flex-direction: row;
+        justify-content: left;
+    }
 }
-
-.promo-card.small {
-  width: 250px;
-  height: 130px;
-}
-
-.promo-card.large {
-  flex: 1;
-  height: 280px;
-}
-
-.promo-text {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.4); dark overlay
-  padding: 10px 15px;
-  border-radius: 10px;
-}
-
-.promo-text h3, .promo-text h2 {
-  margin: 0;
-  font-weight: bold;
-}
-
-.promo-text a {
-  color: white;
-  text-decoration: underline;
-  font-weight: bold;
-  display: block;
-  margin-top: 8px;
-} */
