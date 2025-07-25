@@ -3,9 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1140px;
     margin: auto;
+}
+
+/* noto serif font */
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* inter font */
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* navbar style */
@@ -13,13 +32,16 @@
     display: flex;
     justify-content: space-between;
 }
+
 .nav-image {
     margin-top: 24.5px;
 }
+
 .nav-links {
     list-style: none;
     margin-top: 35.5px;
 }
+
 .nav-links ul a:nth-child(1),
 .nav-links ul a:nth-child(4) {
     color: #252432;
@@ -29,48 +51,59 @@
 .nav-links ul a:nth-child(3) {
     color: #8987A1;
 }
+
 .nav-links a {
     text-decoration: none;
     padding: 20px;
 }
+
 /* banner style */
 .banner {
     display: flex;
     margin-top: 120px;
 }
+
 .banner-title {
     font-size: 4rem;
     font-weight: bold;
     margin-top: 165px;
 }
+
 .fresh-flowers {
     color: #E95A08;
 }
+
 .banner-details {
     max-width: 570px;
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.50);
 }
+
 .banner-image {
     max-width: 570px;
 }
+
 .banner-image img {
     display: block;
     height: 100%;
     width: 100%;
 }
+
 .our-plants-content {
     text-align: center;
     margin-top: 120px;
 }
+
 .our-plants-title {
     font-size: 3rem;
     font-weight: bold;
 }
+
 .our-plants-details {
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.50);
 }
+
 /* card style */
 .card-title {
     font-size: 1.375rem;
@@ -80,9 +113,11 @@
     margin-bottom: 20px;
     margin-right: 69px;
 }
+
 .card-image {
     width: 100%;
 }
+
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -106,6 +141,10 @@
     border: none;
     margin-bottom: 30px;
 }
+.card-btn:hover{
+    background-color: rgb(188, 41, 1);
+    cursor: pointer;
+}
 /* flower and plants lover style */
 .flower-and-plants-lover {
     display: flex;
@@ -120,6 +159,7 @@
     display: block;
     height: 497px;
 }
+
 .badge {
     width: 210px;
     position: absolute;
@@ -127,37 +167,45 @@
     right: -80px;
     z-index: 10;
 }
+
 .right {
     margin: 39px 0px 0px 60px;
     flex: 1;
 }
+
 .right h2 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .right-details {
     padding-left: 20px;
     color: rgba(0, 0, 0, 0.50);
 
 }
+
 .right-details li {
     margin-bottom: 20px;
 }
+
 /* latest section style */
 .latest-deal {
     text-align: center;
     margin-top: 110px;
     margin-bottom: 100px;
 }
+
 .latest-deal h2 {
     font-size: 3rem;
     font-weight: bold;
 }
+
 .latest-deal p {
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.50);
 }
+
 /* plants section style */
 .plants-container {
     display: flex;
@@ -165,27 +213,33 @@
     padding: 20px;
     border-radius: 12px;
 }
+
 .left-plants {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .plants {
     border-radius: 12px;
-     overflow: hidden;
+    overflow: hidden;
 }
+
 .small-plants {
     width: 367px;
     height: 197px;
 }
+
 .large-plants {
     flex: 1;
 }
+
 .plants-details {
     /* position: absolute; */
     border-radius: 8px;
     text-align: center;
 }
+
 .off60 {
     font-size: 20px;
     font-weight: bold;
@@ -194,6 +248,7 @@
     margin-right: 45px;
     margin-left: 45px;
 }
+
 .shop {
     font-size: 16px;
     font-weight: 600;
@@ -203,6 +258,7 @@
     margin-left: 12px;
     display: inline-block;
 }
+
 .off25 {
     font-size: 40px;
     font-weight: bold;
@@ -212,6 +268,7 @@
     margin-left: 50px;
     margin-bottom: 10px;
 }
+
 .shop25 {
     font-size: 28px;
     font-weight: 600;
@@ -220,10 +277,12 @@
     text-align: center;
     margin-left: 40px;
 }
+
 /* join style */
 .join-content {
     position: relative;
 }
+
 .join {
     width: 100%;
     text-align: center;
@@ -232,6 +291,7 @@
     background-size: cover;
     height: 533px;
 }
+
 .join h3 {
     padding-top: 199px;
     margin-bottom: 23px;
@@ -240,20 +300,27 @@
     color: #FFFFFF;
 
 }
+
 .input-button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .join input {
     padding: 15px 540px 15px 20px;
     border: none;
 }
+
 .join button {
     background-color: #E95A08;
     padding: 15px 53px;
     border: none;
     color: #FFFFFF;
+}
+.join button:hover{
+    background-color: rgb(188, 41, 1);
+    cursor: pointer;
 }
 /* footer style */
 .footer-container {
@@ -261,10 +328,12 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
 .footer-content-left {
     font-size: 22px;
     color: #6B7280;
 }
+
 .home-links,
 .features-links {
     display: flex;
@@ -272,11 +341,13 @@
     justify-content: center;
     align-items: center;
 }
+
 .home-links ul,
 .features-links ul {
     list-style: none;
 
 }
+
 .home-links ul li a,
 .features-links ul li a {
     text-decoration: none;
@@ -287,10 +358,12 @@
 .features-links ul li {
     margin-bottom: 20px;
 }
+
 .facebook-links {
     display: flex;
     gap: 20px;
 }
+
 .facebook-links :nth-child(2) {
     margin-bottom: 60px;
 }
@@ -333,10 +406,31 @@
     }
 
     .banner-title {
+        /* current work */
+        font-size: 24px;
+        line-height: 24px;
+        /* end */
         margin-bottom: 13px;
         margin-top: 0px;
     }
 
+    .banner-details {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    /* current work */
+    .our-plants-title {
+        font-size: 24px;
+
+    }
+
+    .our-plants-details {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    /* end */
     .cards {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
@@ -347,6 +441,9 @@
     }
 
     .card-title {
+        /* current work */
+        font-size: 16px;
+        /* end */
         font-weight: bold;
         margin-top: 30px;
         margin-left: 5px;
@@ -356,6 +453,9 @@
     }
 
     .card-price {
+        /* current work */
+        font-size: 16px;
+        /* end */
         text-align: center;
         margin-left: 5px;
         margin-right: 5px;
@@ -363,6 +463,9 @@
     }
 
     .card-btn {
+        /* current work */
+        /* font-size: 16px; */
+        /* end */
         padding: 20px 40px;
         text-align: center;
     }
@@ -385,12 +488,31 @@
         margin: 20px 0px 0px 0px;
     }
 
+    /* current work */
+    .right h2 {
+        font-size: 24px;
+
+    }
+
+    /* current work */
+    .right-details {
+        font-size: 14px;
+    }
+
     .badge {
         display: none;
     }
 
     .latest-deal {
         text-align: center;
+    }
+
+    .latest-deal h2 {
+        font-size: 24px;
+    }
+
+    .latest-deal p {
+        font-size: 14px;
     }
 
     .plants-container {
@@ -412,7 +534,7 @@
         font-weight: bold;
         padding-top: 65px;
         margin-right: 45px;
-        margin-left: 90px;
+        margin-left: 45px;
 
     }
 
@@ -422,7 +544,7 @@
         color: #FFFFFF;
         text-decoration: underline;
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 12px;
         display: inline-block;
     }
 
@@ -437,7 +559,7 @@
     .join h3 {
         padding-top: 140px;
         margin-bottom: 23px;
-        font-size: 2rem;
+        font-size: 20px;
         font-weight: bold;
         color: #FFFFFF;
 
@@ -447,12 +569,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
     .join input {
         padding: 15px 20px 15px 30px;
         border: none;
-
     }
 
     .join button {
@@ -465,6 +587,7 @@
     }
 
     .footer-content-left p {
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
